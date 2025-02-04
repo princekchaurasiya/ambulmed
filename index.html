@@ -116,7 +116,7 @@
         </nav>
         <!-- .navbar -->
 
-        <a class="btn-book-a-table" href="#book-a-table">Book an Ambulance</a>
+        <a class="btn-book-a-table" href="tel:+919930000788">Book an Ambulance</a>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       </div>
@@ -136,9 +136,8 @@
               booking system.
             </p>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#book-a-table" class="btn-book-a-table"
-                >Book Your Ambulance</a
-              >
+              <a href="tel:+919930000788" class="btn-book-a-table text-white">Book Your Ambulance</a>
+
               <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             </div>
           </div>
@@ -215,10 +214,10 @@
 
                 <div class="position-relative mt-4">
                   <img src="assets/img/about-2.jpg" class="img-fluid" alt="" />
-                  <a
+                  <!-- <a
                     href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                     class="glightbox play-btn"
-                  ></a>
+                  ></a> -->
                 </div>
               </div>
             </div>
@@ -1108,10 +1107,11 @@
             <div class="col-md-4">
               <div class="info-item d-flex align-items-center">
                 <i class="icon bi bi-envelope flex-shrink-0"></i>
-                <div>
+                <div class="text-dark">
                   <h3>Email Us</h3>
-                  <p>admin@sk ambulance.com</p>
-                </div>
+                  <p><a href="mailto:admin@skambulance.com" class="text-dark">admin@skambulance.com</a></p>
+              </div>
+              
               </div>
             </div>
             <!-- End Info Item -->
@@ -1119,10 +1119,11 @@
             <div class="col-md-4">
               <div class="info-item d-flex align-items-center">
                 <i class="icon bi bi-telephone flex-shrink-0"></i>
-                <div>
+                <div class="text-dark">
                   <h3>Call Us</h3>
-                  <p>+91 9930000788</p>
-                </div>
+                  <p><a href="tel:+919930000788" class="text-dark">+91 9930000788</a></p>
+              </div>
+              
               </div>
             </div>
             <!-- End Info Item -->
@@ -1189,10 +1190,12 @@
             <i class="bi bi-telephone icon"></i>
             <div>
               <h4>Reservations</h4>
-              <p>
-                <strong>Phone:</strong> +91 9930000788<br />
-                <strong>Email:</strong> admin@sk ambulance.com<br />
-              </p>
+              <p class="text-white">
+                <strong>Phone:</strong> <a href="tel:+919930000788" class="text-white">+91 9930000788</a><br />
+                <strong>Email:</strong> <a href="mailto:admin@skambulance.com" class="text-white">admin@skambulance.com</a><br />
+            </p>
+            
+            
             </div>
           </div>
 
@@ -1229,11 +1232,29 @@
     <!-- End Footer -->
     <!-- End Footer -->
 
-    <a
+    <!-- <a
       href="#"
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    ></a> -->
+
+    <!--sticky mob-->
+   <div class="fixed-bottom d-md-block d-lg-none">
+    <div id="stickymob">
+       <div class="row stickybtn">
+          <a class="stickywa" href="whatsapp://send?text=Hello Doctor I want to Schedule a Visit&phone=+918657965005">
+             <img class="img-fluid" src="assets/img/wa-logo.png" height="45" width="45"
+                alt="Doctor On Call For Home Visit">
+          </a>
+       </div>
+    </div>
+ </div>
+ 
+ <a class="stickyphone" href="tel:+918657965005">
+    <i class="bi bi-telephone-fill"></i>
+ </a>
+
+ <!-- end of sticky mob -->
 
     <div id="preloader"></div>
 
